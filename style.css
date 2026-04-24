@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body {
+  background: #f4f6f9;
+}
+
+.container {
+  display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  height: 100vh;
+  background: #0f3d56;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar ul li {
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.sidebar ul li:hover,
+.sidebar ul .active {
+  background: #1e90ff;
+}
+
+/* Main */
+.main {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Profile */
+.profile {
+  display: flex;
+  align-items: center;
+  background: #c6f1e7;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.profile img {
+  border-radius: 50%;
+  margin-right: 15px;
+  width: 100px;
+  height: 120px;
+}
+
+/* Courses */
+.courses {
+  margin-top: 20px;
+}
+
+.course-box {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.card {
+  flex: 1;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.card:nth-child(1) {
+  background: #fff;
+}
+
+.card:nth-child(2) {
+  background: #d4f5dc;
+}
+
+.card:nth-child(3) {
+  background: #ffe0d6;
+}
+
+/* Progress */
+.progress-section {
+  margin-top: 20px;
+}
+
+.bar {
+  width: 100%;
+  height: 10px;
+  background: #ddd;
+  border-radius: 5px;
+  margin: 5px 0 15px;
+}
+
+.fill {
+  height: 100%;
+  border-radius: 5px;
+}
+
+.java {
+  width: 80%;
+  background: #2196f3;
+}
+
+.dsa {
+  width: 70%;
+  background: #00bcd4;
+}
+
+.web {
+  width: 90%;
+  background: #f44336;
+}
